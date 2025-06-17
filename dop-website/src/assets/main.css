@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f7f6; /* Light, earthy background */
+  color: #333; /* Dark grey for text for readability */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2c5e1a; /* Deep green for headings */
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #3a7d2a; /* A slightly lighter green for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add some basic styling to the header to make it look a bit more modern */
+/* This is just a starting point */
+/* In a real project, you might use a CSS framework or preprocessor */
+/* For now, directly modifying Header.vue styles or App.vue global styles */
