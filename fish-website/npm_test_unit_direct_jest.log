@@ -1,0 +1,14 @@
+
+> fish-website@0.1.0 test:unit
+> jest
+
+PASS tests/unit/SiteHeader.spec.js
+  SiteHeader.vue
+    ✓ renders the website title (28 ms)
+    ✓ has the correct background color class or style (4 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        1.501 s
+Ran all test suites.

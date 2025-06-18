@@ -1,0 +1,25 @@
+
+> fish-website@0.1.0 build
+> vue-cli-service build
+
+All browser targets in the browserslist configuration have supported ES module.
+Therefore we don't build two separate bundles for differential loading.
+
+
+-  Building for production...
+ DONE  Compiled successfully in 6893ms2:46:52 PM
+
+  File                                 Size               Gzipped
+
+  dist/js/chunk-vendors.aa4bfbad.js    118.51 KiB         43.45 KiB
+  dist/js/app.655ede63.js              15.91 KiB          10.00 KiB
+  dist/js/gallery.3e87f470.js          1.70 KiB           0.88 KiB
+  dist/js/about.fbcfc5ea.js            0.49 KiB           0.34 KiB
+  dist/css/app.0ad1e9c8.css            1.25 KiB           0.58 KiB
+  dist/css/gallery.b7f9437f.css        1.15 KiB           0.49 KiB
+
+  Images and other types of assets omitted.
+  Build at: 2025-06-18T14:46:52.038Z - Hash: 501252055903ddde - Time: 6893ms
+
+ DONE  Build complete. The dist directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html

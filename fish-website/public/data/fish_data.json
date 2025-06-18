@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Clownfish",
+    "species": "Amphiprioninae",
+    "imageUrl": "https://via.placeholder.com/200/FF7F50/FFFFFF?Text=Clownfish",
+    "description": "Clownfish are small, brightly colored fish known for their symbiotic relationship with sea anemones.",
+    "habitat": "Warm waters of the Indian and Pacific Oceans, including the Red Sea and the Great Barrier Reef."
+  },
+  {
+    "id": 2,
+    "name": "Betta",
+    "species": "Betta splendens",
+    "imageUrl": "https://via.placeholder.com/200/0000FF/FFFFFF?Text=Betta",
+    "description": "Bettas, also known as Siamese fighting fish, are popular aquarium fish recognized by their vibrant colors and flowing fins.",
+    "habitat": "Shallow waters in Thailand, Cambodia, Laos, and Vietnam, such as rice paddies and marshes."
+  },
+  {
+    "id": 3,
+    "name": "Goldfish",
+    "species": "Carassius auratus",
+    "imageUrl": "https://via.placeholder.com/200/FFD700/000000?Text=Goldfish",
+    "description": "Goldfish are freshwater fish in the carp family, one of the most commonly kept aquarium fish.",
+    "habitat": "Native to East Asia, now domesticated worldwide in freshwater ponds and aquariums."
+  },
+  {
+    "id": 4,
+    "name": "Angelfish",
+    "species": "Pterophyllum",
+    "imageUrl": "https://via.placeholder.com/200/C0C0C0/000000?Text=Angelfish",
+    "description": "Freshwater angelfish are popular for their unique, triangular body shape and long, graceful fins.",
+    "habitat": "Tropical South America, including much of the Amazon River basin."
+  },
+  {
+    "id": 5,
+    "name": "Guppy",
+    "species": "Poecilia reticulata",
+    "imageUrl": "https://via.placeholder.com/200/008000/FFFFFF?Text=Guppy",
+    "description": "Guppies are small, colorful freshwater fish, widely kept as pets and known for their prolific breeding.",
+    "habitat": "Northeast South America, now introduced to many habitats and found worldwide."
+  }
+]

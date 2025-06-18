@@ -1,0 +1,5 @@
+
+> fish-website@0.1.0 test:unit
+> vue-cli-service test:unit
+
+ ERROR  command "test:unit" does not exist.
