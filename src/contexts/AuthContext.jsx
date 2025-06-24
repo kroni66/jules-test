@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { auth, googleProvider } from "../firebase";
 import {
-  signInWithPopup,
+  signInWithRedirect,
   signOut as firebaseSignOut,
   onAuthStateChanged
 } from "firebase/auth";
@@ -35,7 +35,7 @@ export function AuthProvider({ children }) {
   const signInWithGoogle = async () => {
     setAuthLoading(true);
     try {
-      await signInWithPopup(auth, googleProvider);
+      await signInWithRedirect(auth, googleProvider);
       // onAuthStateChanged will handle navigation
     } catch (error) {
       setAuthLoading(false);
