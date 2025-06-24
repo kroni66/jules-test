@@ -1,12 +1,11 @@
-// Replace these placeholder values below with your real Firebase project config:
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  appId: "YOUR_APP_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  // measurementId: "YOUR_MEASUREMENT_ID", // optional
+  apiKey: "AIzaSyBzq5JoZT3rfyZTsESxpGhEbyEHr2ehW_Q",
+  authDomain: "emptyproject-2b4c4.firebaseapp.com",
+  projectId: "emptyproject-2b4c4",
+  storageBucket: "emptyproject-2b4c4.firebasestorage.app",
+  messagingSenderId: "1000984428644",
+  appId: "1:1000984428644:web:3abffc7e1f4d4851415f71",
+  measurementId: "G-0W91H6Y6C7"
 };
 
 import { initializeApp, getApps } from "firebase/app";
