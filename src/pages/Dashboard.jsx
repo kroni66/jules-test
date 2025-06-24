@@ -1,5 +1,6 @@
 import React from "react";
 import { useAuth } from "../contexts/AuthContext";
+import FineTuneForm from "../components/FineTuneForm";
 
 export default function Dashboard() {
   const { user, signOut, authLoading } = useAuth();
@@ -29,6 +30,7 @@ export default function Dashboard() {
           Sign Out
         </button>
       </div>
+      <FineTuneForm />
     </div>
   );
 }
