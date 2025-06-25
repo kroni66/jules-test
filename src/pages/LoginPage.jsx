@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import logo from "../assets/logo.svg";
 
 export default function LoginPage() {
-  const { signInWithGoogle, authLoading } = useAuth();
+  const { signInWithGoogle, authLoading, currentUser } = useAuth();
   const [processing, setProcessing] = useState(false);
   const [error, setError] = useState(null);
+  const navigate = useNavigate();
 
   const handleGoogleSignIn = async () => {
     setError(null);
@@ -17,6 +19,12 @@ export default function LoginPage() {
       setProcessing(false);
     }
   };
+
+  useEffect(() => {
+    if (currentUser) {
+      navigate("/dashboard", { replace: true });
+    }
+  }, [currentUser, navigate]);
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-sky-200 via-indigo-200 to-indigo-400 dark:from-gray-900 dark:via-gray-800 dark:to-gray-950 transition-colors duration-300">
